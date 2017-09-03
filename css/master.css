@@ -1,50 +1,45 @@
-
-*  { 
-	  text-decoration: none;
-   	padding: 3px;
-   	margin: 0;
-   		 
-
+*{
+  text-decoration: none;
+  padding: 3px;
+  margin: 0;
 }
-body {
+
+body{
   background:black;
-  background-image:url(/home/brian/Documentos/Brian/PRUEBA_css/brimecabooks/Imagenes/Fondo.jpg);
+  background-image:url(../Imagenes/Fondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
- 
- 	h1 { 
- 	font-family: helvetica, helvetica, sans-serif;
-	font-size: 26px;
-    color:steelblue; 
-    font-weight: bold; 
-	}
- 	h2 { 
+
+h1{
   font-family: helvetica, helvetica, sans-serif;
- 	color:steelblue; 
- 	font-size: 24px; 
- 	font-weight: bold; 
- 	}
+  font-size: 26px;
+  color:steelblue; 
+  font-weight: bold; 
+}
 
- 	a  {
- 		font-family: tahoma, tahoma, sans-serif;
- 		font-size: 18px;
- 		color:crimson;
- 	}
+h2{
+  font-family: helvetica, helvetica, sans-serif;
+  color:steelblue; 
+  font-size: 24px; 
+  font-weight: bold;
+}
 
- 	p{
- 	color:white; 
- 	font-size: 20px;
- 	font-family:  arial, arial, sans-serif;
- 	}	
+a{
+  font-family: tahoma, tahoma, sans-serif;
+  font-size: 18px;
+  color:crimson;
+}
 
- 	footer{
-    font-weight: bold; 
-      padding: 10px;
- 		color: black ;
- 	}
- 	
+p{
+  color:white; 
+  font-size: 20px;
+  font-family:  arial, arial, sans-serif;
+}
 
- 
-
+footer{
+  font-weight: bold; 
+  padding: 10px;
+  color: black ;
+} 	
