@@ -1,1 +1,20 @@
- 
+.bMenu {
+    background-color: mediumblue;
+    text-decoration: none;
+    text-decoration-color: white;
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+    padding: 3px 12px 3px 6px;
+    width: 100px;
+}
+
+.menu {
+    background-color: orangered;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
