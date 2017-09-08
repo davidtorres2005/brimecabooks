@@ -1,3 +1,9 @@
+a{
+  font-style: normal;
+  color: white;
+  font-weight: bold;
+}
+
 .listaMV{
     width: 300px;
     counter-reset: li;
@@ -69,4 +75,22 @@
   flex-wrap: wrap;
   justify-content: center;
 
+}
+
+footer{
+  background: #267FE6;
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright{
+  background: #123AE6;
+  display: flex;
+  justify-content: center;
+}
+
+.principalfooter{;
+  background: #73C3E6;
+  display: flex;
+  justify-content: space-around;
 }
