@@ -4,6 +4,11 @@ a{
   font-weight: bold;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+}
+
 .listaMV{
     width: 300px;
     counter-reset: li;
