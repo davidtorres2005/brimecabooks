@@ -1,17 +1,12 @@
 
 .Principal{
-  position: relative;
-  display: flex;
   font-family:'Helvetica','Verdana','Monaco',sans-serif;
   font-size: 26px;
-  color: #123AE6; 
-  justify-content: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-left: 360px;
-  margin-top: -442px;
-  align-content: flex-start;
+  color: #123AE6;
+  flex-wrap: nowrap;
+    justify-content: space-around;
   text-decoration: none;
+    align-self: center;
 
  }
 
@@ -23,58 +18,26 @@ aside a{
 	text-decoration: none;
 }
 
-.secImg1  {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: flex-start;
-  margin-left: -30px;
-  margin-top: 20px;
+.secImg  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   
 }
 
-.secImg1 p {
-  margin-left: -75px;
-  margin-top: 100px;
+.secImg p {
+    display: flex;
   font-family:'Helvetica','Verdana','Monaco',sans-serif;
   font-size: 18px;
 }
 
-.secImg2 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: flex-start;
-  margin-left: -500px;
-  margin-top: 20px;
- 
-
+.mainBody {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-.secImg2 p {
-  margin-left: -75px;
-  margin-top: 100px;
-  font-family:'Helvetica','Verdana','Monaco',sans-serif;
-  font-size: 18px;
+.recentBooks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-
-.secImg3 {
-
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: flex-start;
-  margin-left: 60px;
-  margin-top: 20px;
- 
-
-}
-
-.secImg3 p {
-  margin-left: -75px;
-  margin-top: 100px;
-  font-family:'Helvetica','Verdana','Monaco',sans-serif;
-  font-size: 18px;
-}
-
- 
