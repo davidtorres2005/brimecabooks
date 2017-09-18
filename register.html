@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/lista.css">
         <link rel="stylesheet" type="text/css" href="css/list.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/register_style.css">
 	</head>
 	<body>
         <a name="inicio"></a>
@@ -32,21 +33,21 @@
 		</header>
 
 		<!-- Cuerpo de la pagina -->
-		<main>
+		<main class="register">
             <h1>Crear Cuenta</h1>
             <form>
-                <label for="name">Tu nombre</label>
-                <input type="text" name="name" id="name"><br>
+                <label for="name" class="label_reg">Tu nombre</label>
+                <input type="text" name="name" id="name" size="25"><br>
                 
-                <label for="email">Correo electronico</label>
-                <input type="email" name="email" id="email"><br>
+                <label for="email" class="label_reg">Correo electronico</label>
+                <input type="email" name="email" size="25" id="email"><br>
                 
-                <label for="password">Contraseña</label>
-                <input type="password" placeholder="Debe tener al menos 8 caracteres" name="password" id="password"><br>
+                <label for="password" class="label_reg">Contraseña</label>
+                <input type="password" size="25" placeholder="Debe tener al menos 8 caracteres" name="password" id="password"><br>
                 
-                <label for="password_check">Vuelve a escribir la contraseña</label>
-                <input type="password" name="password_check" id="password_check"><br>
-                
+                <label for="password_check" class="label_reg">Vuelve a escribir la contraseña</label>
+                <input type="password" size="25" name="password_check" id="password_check"><br>
+                <br>
                 <input type="submit" value="Crear tu cuenta de Brimeca Books">
             </form>
             
