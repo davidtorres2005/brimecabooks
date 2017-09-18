@@ -1,0 +1,28 @@
+.help {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.help a{
+    text-decoration: none;
+    color: #f78033;
+    font-size: 110%;
+}
+
+.help h1{
+    color: #f78033;
+    font-size: 250%;
+    display: flex;
+    align-self: center;
+}
+
+.help h2{
+    color: #73c3e6;
+    font-size: 180%;
+}
+
+.help p{
+    font-size: 130%;
+}
