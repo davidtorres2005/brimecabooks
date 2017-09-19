@@ -7,18 +7,23 @@ header {
     display: flex;
     text-decoration: none;
     flex-direction: column;
+    width: 100%;
 }
 .login {
     display: flex;
     flex-direction: column-reverse;
-    justify-content:space-around;
-    
+    justify-content:center;
 }
 .login a{
+    width: 110%;
     text-decoration: none;
     font-size: 20px;
     background-color: #f78033;
     color: white;
+    padding: 5%;
+    border-radius: 20px;
+    text-align: center;
+    
 }
 .menu2, .menu1{ 
     flex: auto;
@@ -41,6 +46,8 @@ header {
     font-size: 25px;
     padding: 3px 6px 3px 6px;
     margin: 5px;
+    border-radius: 20px;
+    text-align: center;
     
 }
 
@@ -48,6 +55,7 @@ header {
     font-size: 20px;
     background-color: #f78033;
     font-weight: bolder;
+    border-radius: 20px;
     color: white;
     font-family:'Helvetica','Verdana','Monaco',sans-serif;
 }
