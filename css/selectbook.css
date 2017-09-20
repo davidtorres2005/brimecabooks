@@ -1,8 +1,8 @@
 .panel {
     margin-right: 100px;
     margin-left: 100px;
-	padding: 10px;
-	font-size: 20px;
+    padding: 10px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;      
 }
@@ -10,31 +10,31 @@
 .principal {
     margin-left: 100px;
     margin-right: 100px;
-	display: flex;
-	justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .datos{
-	height: auto;
-	display: flex;
+    height: auto;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;   
 }
 
 .descripcion{
-	font-family:'Helvetica','Verdana','Monaco',sans-serif;
-	font-size: 28px;
-	color: #123AE6;   
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    font-size: 28px;
+    color: #123AE6;   
 }
 
 .precio{
-	font-family:'Helvetica','Verdana','Monaco',sans-serif;
-	font-size: 32px;
-	color: white;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    font-size: 32px;
+    color: white;
 }
 
 .boton input{
-	font-size: 16px;
+    font-size: 16px;
     background-color: #f78033;
     font-weight: lighter;
     width: 170px;
