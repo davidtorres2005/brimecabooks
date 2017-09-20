@@ -1,0 +1,39 @@
+h1{
+	font-size: 30px;
+	font-family:'Helvetica','Verdana','Monaco',sans-serif;
+	color:#267fE6;	
+}
+.panel {
+
+	margin:30px; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;  
+    flex: auto;    
+}
+
+.imgContact{
+	font-size: 18px;
+	margin: 30px;
+	padding: 10px;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;	
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.estadisticas{
+	font-family:'Helvetica','Verdana','Monaco',sans-serif;
+	justify-content: center;
+	display: flex;
+    flex-direction: row;
+    border-top: solid;
+	border-width: 1px;
+    border-color: #73C3E6;
+}
+
+.boton{
+	display: flex;
+    justify-content: center;
+}
+
