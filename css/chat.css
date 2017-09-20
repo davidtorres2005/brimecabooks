@@ -1,0 +1,56 @@
+.chatface{
+    display: flex;
+}
+
+.sidebar{
+    background: #f78033;
+    border: 2px solid #123ae6;
+    width: 20%;
+}
+
+.messagearea{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 2px solid #123ae6;
+    color: black;
+    width: 80%;
+}
+
+.history{
+    height: 80%;
+    border: 2px solid #123ae6;
+}
+
+.bar{
+    display: flex;
+    background: #f78033;
+    height: 20%;
+    border: 2px solid #123ae6;
+}
+
+.userimg{
+    
+}
+
+.textbox{
+    margin: 5px;
+    width: 90%;
+}
+
+.sendbutton{
+    margin: 5px;
+    width: 10%;
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #73c3e6;
+    border-radius: 6px;
+    border: 2px solid #123ae6;
+}
+
+.sendbutton:hover{
+    color: #1883ba;
+    background: #ffffff;
+}
