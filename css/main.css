@@ -1,0 +1,43 @@
+
+.Principal{
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+  font-size: 26px;
+  color: #123AE6;
+  flex-wrap: nowrap;
+    justify-content: space-around;
+  text-decoration: none;
+    align-self: center;
+
+ }
+
+aside a{
+  color: #267FE6;
+	font-family:'Helvetica','Verdana','Monaco',sans-serif;
+	font-size: 26px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.secImg  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.secImg p {
+    display: flex;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+  font-size: 18px;
+}
+
+.mainBody {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.recentBooks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
