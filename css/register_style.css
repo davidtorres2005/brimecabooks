@@ -1,0 +1,14 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label_reg {
+    display: flex;
+}
+
+.register form input , .register form {
+    font-size: 18px;
+}
