@@ -1,0 +1,42 @@
+.panel {
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;  
+    flex: auto;    
+}
+
+
+.panel h1{
+    font-size: 38px;
+
+}
+
+.frmlogin input{
+     font-size: 16px;
+     color: dimgray;
+}
+
+.frmlogin { 
+    font-size: 16px;
+    display: flex;
+    flex: auto;  
+    flex-direction: column;  
+    justify-content:space-around;
+        
+}
+
+.btniniciar{
+
+    
+    height: 40px;
+    border-radius: 20px;
+    background: #F78033; 
+    margin-top: 20px;
+    
+}
+
+.frmlogin a{
+    text-decoration: none;
+    text-align: center
+}
