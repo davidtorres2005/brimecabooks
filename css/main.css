@@ -1,43 +1,36 @@
-
-.Principal{
+.Principal {
+  
   font-family:'Helvetica','Verdana','Monaco',sans-serif;
-  font-size: 26px;
-  color: #123AE6;
+  font-size: 20px;
+  color: #808080;
+  color: #34495e ;
   flex-wrap: nowrap;
-    justify-content: space-around;
+  justify-content: space-around;
   text-decoration: none;
-    align-self: center;
+  align-self: center;
 
  }
 
-aside a{
-  color: #267FE6;
-	font-family:'Helvetica','Verdana','Monaco',sans-serif;
-	font-size: 26px;
-	padding: 5px;
-	text-decoration: none;
-}
-
 .secImg  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
 }
 
 .secImg p {
-    display: flex;
+  display: flex;
   font-family:'Helvetica','Verdana','Monaco',sans-serif;
   font-size: 18px;
 }
 
 .mainBody {
-    display: flex;
-    flex-wrap: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .recentBooks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

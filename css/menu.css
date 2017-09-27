@@ -1,15 +1,18 @@
 body{
-    background-color: black;
+    background-color: whitesmoke ;
     color: white;
 }
 header {
-    background-color: #123ae6;
+    margin:0px, 0px, 0px, 0px;
+    padding-right: 10px;
+    background-color: #5F9EA0 ;
     display: flex;
     text-decoration: none;
     flex-direction: column;
     width: 100%;
 }
 .login {
+     
     display: flex;
     flex-direction: column-reverse;
     justify-content:center;
@@ -17,8 +20,8 @@ header {
 .login a{
     width: 110%;
     text-decoration: none;
-    font-size: 20px;
-    background-color: #f78033;
+    font-size: 12px;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
     color: white;
     padding: 5%;
     border-radius: 20px;
@@ -36,14 +39,13 @@ header {
     align-items: center;
 }
 .buttomM{
-    flex: 1 auto;
+    flex: auto;
     width: 50px;
     font-family:'Helvetica','Verdana','Monaco',sans-serif;
-    background-color: #f78033;
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: lighter;
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     padding: 3px 6px 3px 6px;
     margin: 5px;
     border-radius: 20px;
@@ -53,9 +55,8 @@ header {
 
 .menu1 input{
     font-size: 20px;
-    background-color: #f78033;
     font-weight: bolder;
-    border-radius: 20px;
     color: white;
     font-family:'Helvetica','Verdana','Monaco',sans-serif;
 }
+

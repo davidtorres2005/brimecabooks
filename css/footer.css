@@ -2,11 +2,12 @@
   font-style: normal;
   color: white;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .center{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .padre{
@@ -18,19 +19,22 @@
 }
 
 footer{
-  background: #267FE6;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+  font-size: 14px;
+  background: #5F9EA0;
   display: flex;
   flex-direction: column;
 }
 
 .copyright{
-  background: #123AE6;
+  background: #34495e;
   display: flex;
   justify-content: center;
 }
 
-.principalfooter{;
-  background: #73C3E6;
+.principalfooter{
+
+  background: #5F9EA0;
   display: flex;
   justify-content: space-around;
 }
