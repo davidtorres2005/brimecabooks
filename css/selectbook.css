@@ -22,24 +22,37 @@
 }
 
 .descripcion{
+    color: #696969;
     font-family:'Helvetica','Verdana','Monaco',sans-serif;
     font-size: 28px;
-    color: #123AE6;   
+    color: #34495e;
+       
 }
 
 .precio{
     font-family:'Helvetica','Verdana','Monaco',sans-serif;
     font-size: 32px;
-    color: white;
+    color: #808080; 
+    color:#34495e ;
 }
 
 .boton input{
+    color:white;
     font-size: 16px;
-    background-color: #f78033;
+    background-color: whitesmoke;
     font-weight: lighter;
-    width: 170px;
-    height: 60px;
-    color: white;
+    width: 200px;
+    height: 55px;
+    border-radius:5px;
+    background-color: #34495e;
+    border:solid;
+    font-weight: bold;
+    border-width: 2px;
     font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+.boton input:hover {
+    background-color: whitesmoke;
+    color:  #34495e;
 }
 
