@@ -8,32 +8,34 @@
         <link rel="stylesheet" type="text/css" href="css/list.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/formSale.css">
-
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
 
 
 	</head>
 	<body>
-        <a name="inicio"></a>
-	<!-- Cabezera de la pagina -->
-		<header>
-		        <section class="menu1">
-				<img src="img/logo.png" title="logo" alt="logo" width="25%" height="25%">
-                <form>
-                    <input type="text" name="search" >
-                    <input type="submit" value="Buscar" name="submit">
-                </form>
-                <section class="login">
-                    <a href="#">Iniciar Sesion</a>
-                    <a href="#">Registro</a>
-                </section>
-			</section>
+       <a name="inicio"></a><!-- Identificacion del inicio de la pagina se usa para el boton de inicio -->
+      <!-- Cabezera de la pagina -->
+      <header>
+         <section class="menu1">
+            <img src="img/logo2.png" title="logo" alt="logo"/>
+            <form>
+               <input type="search" name="search">
+               <input type=image src="img/search.png">
+            </form>
             <section class="menu2">
-                    <a href="#" class="buttomM">Inicio</a>
-                    <a href="#" class="buttomM">Vender</a>
-                    <a href="#" class="buttomM">Como se compra</a>
-                    <a href="#" class="buttomM">Ayuda</a>
+                <ul class="menu2">
+                   <a href="#" class="buttomM">Inicio</a>
+                   <a href="#" class="buttomM">Vender</a>
+                   <a href="#" class="buttomM">Como se compra</a>
+                   <a href="#" class="buttomM">Ayuda</a>
+                </ul>
             </section>
-		</header>
+            <section class="login">
+               <a href="#">Iniciar Sesion</a>
+               <a href="#">Registro</a>
+            </section>
+         </section>
+      </header>
 
         <main class="panel">
         	<h1 class="titulo">Datos del libro</h1>
@@ -54,7 +56,7 @@
                 <label for="txtPrecio">Precio $:</label>
                 <input type="text" size="25" id="txtPrecio"  name="Precio"> 
                
-                <input class="btnSave" type="submit" value="Publicar" name="submit">
+                <button class="btnSave" type="submit" name="submit">Publicar</button>
         	</form>
         </main>
 
