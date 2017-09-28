@@ -1,6 +1,4 @@
 .panel {
-    border-style: dashed;
-    border-color: red;
     align-items: center;
     padding: 10px;
     display: flex;
@@ -10,6 +8,7 @@
 
 .panel h1{
     font-size: 38px;
+    color:#34495e; 
 }
 
 .frmSale input{
@@ -23,12 +22,38 @@
     flex: auto;  
     flex-direction: column;  
     justify-content:space-around;
+    
         
 }
 
-.btnSave{
-    height: 40px;
-    border-radius: 20px;
-    background: #F78033; 
-    margin-top: 20px; 
+.frmSale label{
+    color: #808080;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+}
+
+
+.boton input{
+    display: flex;
+    flex: auto;  
+    color:white;
+    font-size: 16px;
+    background-color: whitesmoke;
+    font-weight: lighter;
+    width: 200px;
+    height: 55px;
+    border-radius:5px;
+    background-color: #34495e;
+    border:solid;
+    font-weight: bold;
+    border-width: 2px;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+.boton input:hover {
+    background-color: whitesmoke;
+    color:  #34495e;
 }
