@@ -1,10 +1,9 @@
 h1{
     font-size: 30px;
     font-family:'Helvetica','Verdana','Monaco',sans-serif;
-    color:#267fE6;	
+    color:#696969;	
 }
 .panel {
-
     margin:30px; 
     padding: 10px;
     display: flex;
@@ -12,7 +11,8 @@ h1{
     flex: auto;    
 }
 
-.imgContact{
+.container{
+    color:#34495e;
     font-size: 18px;
     margin: 30px;
     padding: 10px;
@@ -22,7 +22,8 @@ h1{
     justify-content: space-around;
 }
 
-.estadisticas{
+.stadistics{
+    color:#34495e;
     font-family:'Helvetica','Verdana','Monaco',sans-serif;
     justify-content: center;
     display: flex;
@@ -35,5 +36,26 @@ h1{
 .boton{
     display: flex;
     justify-content: center;
+}
+
+
+.boton input{
+    color:white;
+    font-size: 16px;
+    background-color: whitesmoke;
+    font-weight: lighter;
+    width: 200px;
+    height: 55px;
+    border-radius:5px;
+    background-color: #34495e;
+    border:solid;
+    font-weight: bold;
+    border-width: 2px;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+.boton input:hover {
+    background-color: whitesmoke;
+    color:  #34495e;
 }
 
