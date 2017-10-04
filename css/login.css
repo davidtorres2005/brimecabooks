@@ -31,12 +31,13 @@
     
     height: 40px;
     border-radius: 20px;
-    background: #F78033; 
+    background: #5f9ea0; 
     margin-top: 20px;
     
 }
 
 .frmlogin a{
     text-decoration: none;
-    text-align: center
+    text-align: center;
+    color: #5f9ea0;
 }
