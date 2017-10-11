@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
    <head>
+       <meta charset="utf-8"/>
       <title>Brimeca Books</title>
       <!-- Incluir aqui las hojas de estilo -->
       <link rel="stylesheet" type="text/css" href="css/menu.css">
@@ -18,13 +19,15 @@
             <img src="img/logo2.png" title="logo" alt="logo"/>
             <form>
                <input type="search" name="search">
-               <input type=image src="img/search.png">
+               <input type=image src="img/search.png" alt="Busqueda" >
             </form>
             <section class="menu2">
-               <a href="#" class="buttomM">Inicio</a>
-               <a href="#" class="buttomM">Vender</a>
-               <a href="#" class="buttomM">Como se compra</a>
-               <a href="#" class="buttomM">Ayuda</a>
+                <ul class="menu2">
+                    <li type="none"><a href="#" class="buttomM">Inicio</a></li>
+                    <li type="none"><a href="#" class="buttomM">Vender</a></li>
+                    <li type="none"><a href="#" class="buttomM">Como se compra</a></li>
+                    <li type="none"><a href="#" class="buttomM">Ayuda</a></li>
+                </ul>
             </section>
             <section class="login">
                <a href="#">Iniciar Sesion</a>
@@ -44,9 +47,7 @@
                   </p>
                </section>
                <span class="precio">
-                  <p>
                      $ 250.00
-                  </p>
                </span>
                <section class="boton">
                    <button type="button" name="btnsubmit">Solicitar Ahora</button>

@@ -10,3 +10,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.socials > section > img {
+    width: 25%;
+}

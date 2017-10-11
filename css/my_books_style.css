@@ -22,3 +22,7 @@
 .my_books table td tr{
     height: 25%;
 }
+
+.mb_img > img{
+    width: 80%;
+}
