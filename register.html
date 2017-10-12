@@ -10,6 +10,8 @@
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/register_style.css">
         <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/validations.js"></script>
 	</head>
 	<body>
         <a name="inicio"></a><!-- Identificacion del inicio de la pagina se usa para el boton de inicio -->
@@ -41,20 +43,20 @@
             <h1>Crear Cuenta</h1>
             <form class="register">
                 <label for=user_name class="label_reg">Tu usuario</label>
-                <input type="text" name="user_name" id="user_name" size="25"><br>
+                <input type="text" name="user_name" id="user_name" size="25"><span id="id1"></span><br>
                 
                 <label for="name" class="label_reg">Tu nombre</label>
-                <input type="text" name="name" id="name" size="25"><br>
+                <input type="text" name="name" id="name" size="25"><span id="id2"></span><br>
                 
                 <label for="email" class="label_reg">Correo electronico</label>
-                <input type="email" name="email" size="25" id="email"><br>
+                <input type="text" name="email" size="25" id="email"><span id="id3"></span><br>
                 
                 <label for="password" class="label_reg">Contraseña</label>
-                <input type="password" size="25" placeholder="Debe tener al menos 6 caracteres" name="password" id="password"><br>
+                <input type="password" size="25" name="password" id="password"><span id="id4"></span><br>
                 
                 <label for="password_check" class="label_reg">Vuelve a escribir la contraseña</label>
-                <input type="password" size="25" name="password_check" id="password_check"><br>
-                <button type="submit">Crear tu cuenta de Brimeca Books</button>
+                <input type="password" size="25" name="password_check" id="password_check"><span id="id5"></span><br>
+                <button type="submit" id="submitBtn" >Crear tu cuenta de Brimeca Books</button>
             </form>
             
             <p>Condiciones de uso y aviso de privacidad</p>

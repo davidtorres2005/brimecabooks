@@ -12,3 +12,7 @@
 .register form input , .register form {
     font-size: 18px;
 }
+
+.regError {
+    border-color: red;
+}
