@@ -7,9 +7,10 @@
 
 .label_reg {
     display: flex;
+    font-size: 18px;
 }
 
-.register form input , .register form {
+.register form input , .register input {
     font-size: 18px;
 }
 
